@@ -1,0 +1,28 @@
+site:
+  title: Heiss
+  start_page: homepage::index.adoc
+content:
+  sources:
+    - url: ./../homepage
+      branches: HEAD
+    - url: ./../architecture
+      branches: HEAD
+    - url: ./../libraryinformationsystem
+      branches: HEAD
+    - url: ./../management
+      branches: HEAD
+    - url: ./../operatingsystems
+      branches: HEAD
+    - url: ./../productivity
+      branches: HEAD
+    - url: https://github.com/heiss-blog/softwaredevelopment.git
+      branches: HEAD
+ui:
+  bundle:
+    url: https://github.com/heiss-blog/antora-ui-default/releases/download/develop/ui-bundle.zip
+  supplemental_files:
+    - path: ui.yml
+      contents: |
+        static_files:
+        - .nojekyll
+    - path: .nojekyll
