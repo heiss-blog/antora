@@ -3,17 +3,17 @@ site:
   start_page: homepage::index.adoc
 content:
   sources:
-    - url: ./../homepage
+    - url: https://github.com/heiss-blog/homepage.git
       branches: HEAD
-    - url: ./../architecture
+    - url: https://github.com/heiss-blog/architecture.git
       branches: HEAD
-    - url: ./../libraryinformationsystem
+    - url: https://github.com/heiss-blog/libraryinformationsystem.git
       branches: HEAD
-    - url: ./../management
+    - url: https://github.com/heiss-blog/management.git
       branches: HEAD
-    - url: ./../operatingsystems
+    - url: https://github.com/heiss-blog/operatingsystems.git
       branches: HEAD
-    - url: ./../productivity
+    - url: https://github.com/heiss-blog/productivity.git
       branches: HEAD
     - url: https://github.com/heiss-blog/softwaredevelopment.git
       branches: HEAD
